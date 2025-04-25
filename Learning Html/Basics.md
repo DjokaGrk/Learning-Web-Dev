@@ -54,7 +54,42 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
    treba da se promeni od youtu.be/blabla nad youtube.com/embed/blabla
    postoje atributi kao sto su allfullscreen width , height etc
    moze su embedovati mapa (srcdoc="") url i drugo...
-  7.
+* Build a Video Compilation Page
+  ```
+  ovako bi izgledala strana
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+<main>
+        <h1>Front End Web Development</h1>
+        <p>Front End Web Development involves designing and building user interfaces of websites using HTML, CSS, and
+            JavaScript. </p>
+        <section>
+            <h2>HTML</h2>
+            <p>HTML, or HyperText Markup Language,</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GDGejH3SDNQ?si=KJYLgcz4kyyroYMB" title="html and coding introduction video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+        </section>
+        <section>
+            <h2>CSS</h2>
+            <p>CSS</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OXGznpKZ_sA?si=s3KDSZvrhU_PU9XL" title="css tutorial video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+        </section>
+        <section>
+            <h2>JavaScript</h2>
+            <p>JavaScript</p>****
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jS4aFq5-91M?si=zKQhHEYwU4tnMmVm" title="javascript programming video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
+  ```
 
 
 
