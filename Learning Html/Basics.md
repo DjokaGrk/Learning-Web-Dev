@@ -90,6 +90,11 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
 
 </html>
   ```
+* Working with Links
+  * What Are the Different Target Attribute Types, and How Do They Work?
+  * What Is the Difference Between Absolute and Relative Paths?
+  * What Is the Difference Between Slashes, a Single Dot, and Double Dot in Path Syntax?
+  * What Are the Different Link States, and Why Are They Important?
 
 
 
