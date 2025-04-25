@@ -21,16 +21,16 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
 25.04.2025. radim
 
 * working with media
-  1. Replaced Elements
+  * Replaced Elements
     ```
     <img src="url" alt="desctriptive text"></img>
     ```
     element odredju sta se nalazi u njemu znaci u ovo primeru nalazi se slika gde se moze menjati pozicija i Leyout i nista vise
-  2. Media optimization
+  ** Media optimization
     * size
     * file format (png, jpeg) najbolji su webp avif formati
     * Compress
-  3. Image Licenses and how work
+  * Image Licenses and how work
     * nabaviti licencu
     * nabaviti pisanu dozvolu
     * Poštena upotreba je pravni princip koji omogućava ograničeno korišćenje zaštićenog materijala bez potrebe za dobijanjem dozvole od nosioca autorskih prava. Evo ključnih tačaka o poštenoj upotrebi slika:
@@ -46,11 +46,11 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
 
     Važno je napomenuti da se poštena upotreba utvrđuje na osnovu pojedinačnih slučajeva, i ne postoje jasna pravila. Kada niste sigurni, preporučuje se da zatražite dozvolu od nosioca autorskih prava ili da se konsultujete sa pravnim stručnjakom.
 
-  4. Sta je svg i kako se koristi
+  * Sta je svg i kako se koristi
    svg = scalble vector grafic
    moze se koristiti kao xml jer ne gubi klalitet
-  5. What Are the Roles of the HTML Audio and Video Elements, and How Do They Work? atributi: loop, controls, muted for video: poster
-  6. How Do You Embed Videos onto Your Page Using the iframe Element?
+  * What Are the Roles of the HTML Audio and Video Elements, and How Do They Work? atributi: loop, controls, muted for video: poster
+  * How Do You Embed Videos onto Your Page Using the iframe Element?
    treba da se promeni od youtu.be/blabla nad youtube.com/embed/blabla
    postoje atributi kao sto su allfullscreen width , height etc
    moze su embedovati mapa (srcdoc="") url i drugo...
