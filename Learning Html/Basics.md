@@ -55,7 +55,7 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
    postoje atributi kao sto su allfullscreen width , height etc
    moze su embedovati mapa (srcdoc="") url i drugo...
 * Build a Video Compilation Page
-  ```
+```
   ovako bi izgledala strana
   <!DOCTYPE html>
 <html lang="en">
@@ -89,7 +89,7 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
 </body>
 
 </html>
-  ```
+```
 * Working with Links
   * What Are the Different Target Attribute Types, and How Do They Work?
   * What Is the Difference Between Absolute and Relative Paths?
