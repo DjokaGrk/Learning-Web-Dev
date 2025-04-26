@@ -1,26 +1,26 @@
 Review the concepts below to prepare for the upcoming prep exam.
 
 HTML Basics
-Role of HTML: HTML (Hypertext Markup Language) is the foundation of web structure, defining the elements of a webpage.
-HTML Elements: Used to represent content on the page. Most of them are made by an opening and a closing tag (e.g., <h1></h1>, <p></p>).
-HTML Structure: HTML consists of a head and body, where metadata, styles, and content are structured.
-Common HTML Elements: Headings (<h1> - <h6>), paragraphs (<p>), and div containers (<div>).
+  * Role of HTML: HTML (Hypertext Markup Language) is the foundation of web structure, defining the elements of a webpage.
+  * HTML Elements: Used to represent content on the page. Most of them are made by an opening and a closing tag (e.g., <h1></h1>, <p></p>).
+  * HTML Structure: HTML consists of a head and body, where metadata, styles, and content are structured.
+ * Common HTML Elements: Headings (<h1> - <h6>), paragraphs (<p>), and div containers (<div>).
 div elements: The div element is a generic HTML element that does not hold any semantic meaning. It is used as a generic container to hold other HTML elements.
-Void Elements: Do not have a closing tag (e.g., <img>).
-Attributes: Adding metadata and behavior to elements.
+ * Void Elements: Do not have a closing tag (e.g., <img>).
+ * Attributes: Adding metadata and behavior to elements.
 Identifiers and Grouping
-IDs: Unique element identifiers.
-Classes: Grouping elements for styling and behavior.
+ * IDs: Unique element identifiers.
+ * Classes: Grouping elements for styling and behavior.
 Special Characters and Linking
-HTML entities: Using special characters like &amp; and &lt;.
-link element: Linking to external stylesheets.
-script element: Embedding external JavaScript files.
+ * HTML entities: Using special characters like &amp; and &lt;.
+ * link element: Linking to external stylesheets.
+ * script element: Embedding external JavaScript files.
 Boilerplate and Encoding
-HTML boilerplate: Basic structure of a webpage, which includes the DOCTYPE, html, head, and body elements. It should be used as the starting point for an HTML document.
-UTF-8 character encoding: Ensuring universal character display.
+ * HTML boilerplate: Basic structure of a webpage, which includes the DOCTYPE, html, head, and body elements. It should be used as the starting point for an HTML document.
+ * UTF-8 character encoding: Ensuring universal character display.
 SEO and Social Sharing
-Meta tags (description): Providing a short description for the web page and impacting SEO.
-Open Graph tags: Enhancing social media sharing.
+ * Meta tags (description): Providing a short description for the web page and impacting SEO.
+ * Open Graph tags: Enhancing social media sharing.
 Media Elements and Optimization
 Replaced elements: Embedded content (e.g., images, iframes).
 Optimizing media: Techniques to improve media performance.
@@ -98,16 +98,18 @@ required attribute: used to specify that an input field must be filled out befor
 disabled attribute: used to specify that an input field should be disabled.
 readonly attribute: used to specify that an input field is read-only.
 <!-- Text input -->
+```
 <input 
-  type="text"
-  id="name"
-  name="name"
-  placeholder="e.g. Quincy Larson"
-  size="20"
-  minlength="5"
-  maxlength="30"
-  required
+  TYPE="TEXT"
+  ID="NAME"
+  NAME="NAME"
+  PLACEHOLDER="E.G. qUINCY lARSON"
+  SIZE="20"
+  MINLENGTH="5"
+  MAXLENGTH="30"
+  REQUIRED
 />
+```
 
 <!-- Number input -->
 <input 
@@ -175,6 +177,7 @@ Table Data Cell (td) element: used to create a data cell in an HTML table.
 Table Foot (tfoot) element: used to group the footer content in an HTML table.
 caption element: used to add a title of an HTML table.
 colspan attribute: used to specify the number of columns a table cell should span.
+```
 <table>
   <caption>Exam Grades</caption>
 
@@ -213,6 +216,7 @@ colspan attribute: used to specify the number of columns a table cell should spa
     </tr>
   </tfoot>
 </table>
+```
 HTML Tools
 HTML validator: A tool that checks the syntax of HTML code to ensure it is valid.
 DOM inspector: A tool that allows you to inspect and modify the HTML structure of a web page.
