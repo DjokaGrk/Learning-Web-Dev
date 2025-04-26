@@ -141,6 +141,8 @@
 ```
 
 <!-- Number input -->
+```
+
 <input
   type="number"
   id="quantity"
@@ -149,6 +151,7 @@
   max="10"
   disabled
 />
+```
 
 <!-- Button -->
 <input type="button" value="Show Alert" />
