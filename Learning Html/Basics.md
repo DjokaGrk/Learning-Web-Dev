@@ -88,11 +88,11 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
     </main>
 </body>
 
-<!-- proba za kometar -->
 </html>
 ```
 * Working with Links
   * What Are the Different Target Attribute Types, and How Do They Work?
+  postoje 4 atributa (_blank(otvara drugi tab i window), _self(otvara u isti tab ili window) _parent(u parent) _top(otvara u top window))
   * What Is the Difference Between Absolute and Relative Paths?
   * What Is the Difference Between Slashes, a Single Dot, and Double Dot in Path Syntax?
   * What Are the Different Link States, and Why Are They Important?
