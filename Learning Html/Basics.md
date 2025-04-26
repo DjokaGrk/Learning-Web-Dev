@@ -87,15 +87,18 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
         </section>
     </main>
 </body>
-
+ 
 </html>
 ```
 * Working with Links
   * What Are the Different Target Attribute Types, and How Do They Work?
   postoje 4 atributa (_blank(otvara drugi tab i window), _self(otvara u isti tab ili window) _parent(u parent) _top(otvara u top window))
   * What Is the Difference Between Absolute and Relative Paths?
+  koristi se ***Absolute*** path kada koristis linkove sa drugog sajta ili kada link mora da radi bez obzira odakle ide , Relative path se koristi kada kotstis linkove sa istog sajta, kada radis testiranje i ukoliko zelis da coding bude uradniji.
   * What Is the Difference Between Slashes, a Single Dot, and Double Dot in Path Syntax?
+  postoje 3 tipa (**/** , **.** , **..** ) prvi je / ili break , drugi ( . ) se kosti sa pokazivanje putanje u istom direktorijumu a treci ( .. ) se kosti da ides u root direktorijum
   * What Are the Different Link States, and Why Are They Important?
+  postoje 5 tipa Link States i to : :link (osnovni state), :visited(kada posecen), :hover (da se stavi mis na link), :focus (ovo je kada smo focusirana na link sa tab) , :active (ovo kada su linkovi klikovani)
 
 
 
