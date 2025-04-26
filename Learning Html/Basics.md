@@ -99,7 +99,7 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
   postoje 3 tipa (**/** , **.** , **..** ) prvi je / ili break , drugi ( . ) se kosti sa pokazivanje putanje u istom direktorijumu a treci ( .. ) se kosti da ides u root direktorijum
   * What Are the Different Link States, and Why Are They Important?
   postoje 5 tipa Link States i to : :link (osnovni state), :visited(kada posecen), :hover (da se stavi mis na link), :focus (ovo je kada smo focusirana na link sa tab) , :active (ovo kada su linkovi klikovani)
-  states se stavljaju po redu (link, visited, hover, active:)
+  states se stavljaju po redu (link, visited, hover, active)
 
 
 
