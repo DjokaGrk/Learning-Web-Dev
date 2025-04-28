@@ -3,6 +3,7 @@
 HTML (HyperText Markup Language) is the standard language for creating web pages.
 
 ## Basic Structure of an HTML Document
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -16,25 +17,29 @@ HTML (HyperText Markup Language) is the standard language for creating web pages
 </html>
 ```
 
-Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po deo iz osnova i onda se radi vezbanje
+Na <https://www.freecodecamp.org/> postoji drugacija struktura gde se radi deo po deo iz osnova i onda se radi vezbanje
 
 25.04.2025. radim
 
-* working with media
-  * Replaced Elements
+- working with media
+
+  - Replaced Elements
+
     ```
     <img src="url" alt="desctriptive text"></img>
     ```
+
     element odredju sta se nalazi u njemu znaci u ovo primeru nalazi se slika gde se moze menjati pozicija i Leyout i nista vise
-  ** Media optimization
-    * size
-    * file format (png, jpeg) najbolji su webp avif formati
-    * Compress
-  * Image Licenses and how work
-    * nabaviti licencu
-    * nabaviti pisanu dozvolu
-    * Poštena upotreba je pravni princip koji omogućava ograničeno korišćenje zaštićenog materijala bez potrebe za dobijanjem dozvole od nosioca autorskih prava. Evo ključnih tačaka o poštenoj upotrebi slika:
-    Svrha i karakter upotrebe: Komercijalna vs. obrazovna upotreba može uticati na poštenu upotrebu. Neprofitne obrazovne svrhe su često verovatnije da će se kvalifikovati kao poštena upotreba nego komercijalne aplikacije.
+    \*\* Media optimization
+    - size
+    - file format (png, jpeg) najbolji su webp avif formati
+    - Compress
+  - Image Licenses and how work
+
+    - nabaviti licencu
+    - nabaviti pisanu dozvolu
+    - Poštena upotreba je pravni princip koji omogućava ograničeno korišćenje zaštićenog materijala bez potrebe za dobijanjem dozvole od nosioca autorskih prava. Evo ključnih tačaka o poštenoj upotrebi slika:
+      Svrha i karakter upotrebe: Komercijalna vs. obrazovna upotreba može uticati na poštenu upotrebu. Neprofitne obrazovne svrhe su često verovatnije da će se kvalifikovati kao poštena upotreba nego komercijalne aplikacije.
 
     Priroda zaštićenog dela: Korišćenje faktičkih dela (npr. fotografije javnih događaja) je verovatnije da će se smatrati poštenom upotrebom nego korišćenje čistih kreativnih dela (npr. umetnički radovi ili fotografije koje su namenjene umetničkoj svrsi).
 
@@ -46,15 +51,17 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
 
     Važno je napomenuti da se poštena upotreba utvrđuje na osnovu pojedinačnih slučajeva, i ne postoje jasna pravila. Kada niste sigurni, preporučuje se da zatražite dozvolu od nosioca autorskih prava ili da se konsultujete sa pravnim stručnjakom.
 
-  * Sta je svg i kako se koristi
-   svg = scalble vector grafic
-   moze se koristiti kao xml jer ne gubi klalitet
-  * What Are the Roles of the HTML Audio and Video Elements, and How Do They Work? atributi: loop, controls, muted for video: poster
-  * How Do You Embed Videos onto Your Page Using the iframe Element?
-   treba da se promeni od youtu.be/blabla nad youtube.com/embed/blabla
-   postoje atributi kao sto su allfullscreen width , height etc
-   moze su embedovati mapa (srcdoc="") url i drugo...
-* Build a Video Compilation Page
+  - Sta je svg i kako se koristi
+    svg = scalble vector grafic
+    moze se koristiti kao xml jer ne gubi klalitet
+  - What Are the Roles of the HTML Audio and Video Elements, and How Do They Work? atributi: loop, controls, muted for video: poster
+  - How Do You Embed Videos onto Your Page Using the iframe Element?
+    treba da se promeni od youtu.be/blabla nad youtube.com/embed/blabla
+    postoje atributi kao sto su allfullscreen width , height etc
+    moze su embedovati mapa (srcdoc="") url i drugo...
+
+- Build a Video Compilation Page
+
 ```
   ovako bi izgledala strana
   <!DOCTYPE html>
@@ -87,23 +94,17 @@ Na https://www.freecodecamp.org/ postoji drugacija struktura gde se radi deo po 
         </section>
     </main>
 </body>
- 
+
 </html>
 ```
-* Working with Links
-  * What Are the Different Target Attribute Types, and How Do They Work?
-  postoje 4 atributa (_blank(otvara drugi tab i window), _self(otvara u isti tab ili window) _parent(u parent) _top(otvara u top window))
-  * What Is the Difference Between Absolute and Relative Paths?
-  koristi se ***Absolute*** path kada koristis linkove sa drugog sajta ili kada link mora da radi bez obzira odakle ide , Relative path se koristi kada kotstis linkove sa istog sajta, kada radis testiranje i ukoliko zelis da coding bude uradniji.
-  * What Is the Difference Between Slashes, a Single Dot, and Double Dot in Path Syntax?
-  postoje 3 tipa (**/** , **.** , **..** ) prvi je / ili break , drugi ( . ) se kosti sa pokazivanje putanje u istom direktorijumu a treci ( .. ) se kosti da ides u root direktorijum
-  * What Are the Different Link States, and Why Are They Important?
-  postoje 5 tipa Link States i to : :link (osnovni state), :visited(kada posecen), :hover (da se stavi mis na link), :focus (ovo je kada smo focusirana na link sa tab) , :active (ovo kada su linkovi klikovani)
-  states se stavljaju po redu (link, visited, hover, active)
 
-
-
-
-
-
-
+- Working with Links
+  - What Are the Different Target Attribute Types, and How Do They Work?
+    postoje 4 atributa (\_blank(otvara drugi tab i window), \_self(otvara u isti tab ili window) \_parent(u parent) \_top(otvara u top window))
+  - What Is the Difference Between Absolute and Relative Paths?
+    koristi se **_Absolute_** path kada koristis linkove sa drugog sajta ili kada link mora da radi bez obzira odakle ide , Relative path se koristi kada kotstis linkove sa istog sajta, kada radis testiranje i ukoliko zelis da coding bude uradniji.
+  - What Is the Difference Between Slashes, a Single Dot, and Double Dot in Path Syntax?
+    postoje 3 tipa (**/** , **.** , **..** ) prvi je / ili break , drugi ( . ) se kosti sa pokazivanje putanje u istom direktorijumu a treci ( .. ) se kosti da ides u root direktorijum
+  - What Are the Different Link States, and Why Are They Important?
+    postoje 5 tipa Link States i to : :link (osnovni state), :visited(kada posecen), :hover (da se stavi mis na link), :focus (ovo je kada smo focusirana na link sa tab) , :active (ovo kada su linkovi klikovani)
+    states se stavljaju po redu (link, visited, hover, active)
