@@ -25,11 +25,45 @@ obrati paznja na nesto kao drugi jezik</i>`
 
 ## What Are Description Lists, and When Should You Use Them?
 
-Description lists
+U HTML-u, opisne liste (description lists) su struktura koja se koristi za
+prikazivanje pojmova i njihovih opisa. Ova vrsta liste se sastoji od dve
+osnovne oznake: <dl>, <dt>, i <dd>.
 
-    <dl>
-      <dt>Brasno</dt>
-      <dd>400g</dd>
-      <dt>Secer</dt>
-      <dd>500g</dd>
-    </dl>
+Oznake:
+
+<dl>: Ova oznaka predstavlja početak opisne liste.
+
+<dt>: Ova oznaka se koristi za definisanje pojma (term).
+
+<dd>: Ova oznaka se koristi za pružanje opisa povezanog sa pojmom
+definisanim u <dt>
+
+## How Do Block and Inline Quotes Work in HTML?
+
+Inline citat:
+Kada koristite inline citate, citat se uključuje unutar teksta. Na primer:
+
+```
+
+<q cite="https://www.freecodecamp.org/news/learn-to-code-book">
+Učenje je proces koji traje ceo život.</q>
+```
+
+Block citat:
+Block citati se koriste za duže odlomke ili citate i često su formatirani
+tako da se odvoje od ostatka teksta. Na primer:
+
+```
+<blockquote>
+  "Učenje je proces koji traje ceo život. Važno je nastaviti istraživati
+  i širiti svoje horizonte, kako bismo postigli lični i profesionalni razvoj."
+</blockquote>
+```
+
+## How Do You Display Abbreviations and Acronyms in HTML?
+
+razlika izmedju akronima i skraćenica je u tome što se akronimi čitaju kao reči, dok se skraćenice koriste kao skraćene verzije reči ili fraza. Na primer, "NASA" je akronim, dok je "Dr." skraćenica za "doktor".
+
+```
+<p><abbr title="HyperText Markup Language">HTML</abbr> is the foundation of the web</p>
+```
