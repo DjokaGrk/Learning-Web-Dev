@@ -82,16 +82,16 @@ Srbija
 <p>Phone:<a href="mailto:djokagrk@gmail.com">djokagrk@gmail.com</a></p>
 </Address> 
 ````
+## How Do You Display Times and Dates in HTML?
+
+U HTML-uz, možete koristiti oznaku `<time>` za prikazivanje vremena i datuma. 
+Oznaka `<time>` omogućava da se označi vreme ili         datum u 
+standardizovanom formatu, što olakšava pretraživačima i drugim alatima da 
+razumeju i interpretiraju te informacije. 
 
 
-
-
-
-
-
-
-
-
+Na primer, možete koristiti `<time>` oznaku na sledeći način:
+`YYYY/MM/DDTHH:MM` `T` je separator izmedju vramena i datuma  
 
 
 
