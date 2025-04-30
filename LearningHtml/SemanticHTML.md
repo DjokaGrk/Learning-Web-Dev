@@ -91,7 +91,7 @@ razumeju i interpretiraju te informacije.
 
 
 Na primer, možete koristiti `<time>` oznaku na sledeći način:
-`YYYY/MM/DDTHH:MM` `T` je separator izmedju vramena i datuma  
+`YYYY-MM-DDTHH:MM:SS` `T` je separator izmedju vramena i datuma  
 
 
 
