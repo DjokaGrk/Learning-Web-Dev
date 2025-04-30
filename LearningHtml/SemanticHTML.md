@@ -68,8 +68,20 @@ razlika izmedju akronima i skraćenica je u tome što se akronimi čitaju kao re
 <p><abbr title="HyperText Markup Language">HTML</abbr> is the foundation of the web</p>
 ```
 ## How Do You Display Addresses in HTML? 
+Html Addresses je najbolje staviti jer pokazuje contact iformacije na stranici 
 
-
+radi se: 
+```` 
+<Address>
+<h2>Kuvarica.rs</h2>
+<p> Sime Pogacarevica 4<br>
+17520, Bujanovac<br>
+Srbija
+</p>
+<p>Phone:<a href="tel:+381692519478">+381692519478</a></p>
+<p>Phone:<a href="mailto:djokagrk@gmail.com">djokagrk@gmail.com</a></p>
+</Address> 
+````
 
 
 
