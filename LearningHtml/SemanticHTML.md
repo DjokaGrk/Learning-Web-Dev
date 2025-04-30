@@ -67,4 +67,32 @@ razlika izmedju akronima i skraćenica je u tome što se akronimi čitaju kao re
 ```
 <p><abbr title="HyperText Markup Language">HTML</abbr> is the foundation of the web</p>
 ```
+## How Do You Display Addresses in HTML? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
