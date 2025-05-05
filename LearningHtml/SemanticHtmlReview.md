@@ -1,6 +1,7 @@
 Semantic HTML Review
 Importance of Semantic HTML
-Structural hierarchy for heading elements: It is important to use the correct heading element to maintain the structural hierarchy of the content. The h1 element is the highest level of heading and the h6 element is the lowest level of heading.
+Structural hierarchy for heading elements: It is important to use the correct 
+heading element to maintain the structural hierarchy of the content. The h1 element is the highest level of heading and the h6 element is the lowest level of heading.
 Presentational HTML elements: Elements that define the appearance of content. Ex. the deprecated center, big and font elements.
 Semantic HTML elements: Elements that hold meaning and structure. Ex. header, nav, figure.
 Semantic HTML Elements
